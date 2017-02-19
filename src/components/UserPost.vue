@@ -10,6 +10,7 @@
 			<hr>
 		</template>
 		<h1 v-if="isLoading">Loading...</h1>
+
 	</div>
 </template>
 

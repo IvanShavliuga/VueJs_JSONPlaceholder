@@ -6,15 +6,17 @@
     <button>
       <router-link to="/about">About</router-link>
     </button>
-    
+    <button>
+      <router-link to="/album">ImageAlbum</router-link>
+    </button>
     <router-view></router-view>
   </div>
+
 </template>
 
 <script>
 export default {
   name: 'App',
-  
 }
 </script>
 
